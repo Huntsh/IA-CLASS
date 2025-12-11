@@ -20,7 +20,7 @@ A API se integra com o modelo de linguagem **Gemini 2.5 Flash** da Google, utili
     ```bash
     python3 -m venv venv
     source venv/bin/activate  # No Linux/macOS
-    # venv\Scripts\activate  # No Windows
+     venv\Scripts\activate  # No Windows
     ```
 
 2.  **Instale as dependências:**
@@ -33,7 +33,7 @@ A API se integra com o modelo de linguagem **Gemini 2.5 Flash** da Google, utili
     *   Acesse: [Google AI Studio](https://ai.google.dev/gemini-api/docs/api-key)
 
 4.  **Configure a Variável de Ambiente:**
-    Crie um arquivo chamado `.env` na raiz do projeto e adicione sua chave de API:
+    Vá no arquivo `.env` na raiz do projeto e adicione sua chave de API:
     ```
     GEMINI_API_KEY="SUA_CHAVE_DE_API_AQUI"
     ```
@@ -44,7 +44,7 @@ A API se integra com o modelo de linguagem **Gemini 2.5 Flash** da Google, utili
 ```
 $env:GEMINI_API_KEY="SUA_CHAVE-API"
 ```
-    O projeto utiliza a biblioteca `python-dotenv` para carregar essa variável automaticamente.
+- O projeto utiliza a biblioteca `python-dotenv` para carregar essa variável automaticamente.
 
 ## ▶️ Como Rodar o Servidor
 
