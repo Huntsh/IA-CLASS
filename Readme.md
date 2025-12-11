@@ -33,7 +33,7 @@ A API se integra com o modelo de linguagem **Gemini 2.5 Flash** da Google, utili
     *   Acesse: [Google AI Studio](https://ai.google.dev/gemini-api/docs/api-key)
 
 4.  **Configure a Variável de Ambiente:**
-    Vá no arquivo `.env` na raiz do projeto e adicione sua chave de API:
+    - Vá no arquivo `.env` na raiz do projeto e adicione sua chave de API:
     ```
     GEMINI_API_KEY="SUA_CHAVE_DE_API_AQUI"
     ```
